@@ -5,9 +5,9 @@ const router = express.Router();
 //@desc     tests posts route
 //@access   Public
 router.get('/test', (req,res) =>{
-	res.json({
-		msg: 'Posts works'
-	});
+    res.json({
+        msg: 'Posts works'
+    });
 });
 
 module.exports = router;
